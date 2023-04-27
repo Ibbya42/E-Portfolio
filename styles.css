@@ -15,6 +15,10 @@ h1,h2,h3,h4,h5,h6,span{
     line-height: 1.25;
 }
 
+h1{
+    font-size: 36px;
+}
+
 p{
     line-height: 1.5;
     font-size: 16px;
@@ -110,8 +114,32 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
+.about-me_picture--mask{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.about-me__picture{
+    width: 100%;
+    
+}
+
+.about-me_info--title{
+    margin-bottom: 16px;
+}
+
+.about-me_info--para{
+    font-size: 20px;
+    margin-bottom: 28px;
+}
 
 
 
