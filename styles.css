@@ -25,7 +25,21 @@ li{
     list-style: none;
 }
 
-/* Navigation Bar */
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex:1;
+}
+
+.row{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
 
 nav{
     height: 100px;
@@ -81,4 +95,23 @@ nav{
     margin: 0 12px;
     font-weight: bold;
 }
+
+/* ABOUT ME SECTION */
+
+#about-me{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Focuses on the container of the about me section */
+.about-me_info--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
