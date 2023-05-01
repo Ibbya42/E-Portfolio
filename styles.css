@@ -108,6 +108,12 @@ nav{
     flex-direction: column;
 }
 
+.about-me_info{
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Focuses on the container of the about me section */
 .about-me_info--container{
     display: flex;
@@ -146,6 +152,12 @@ nav{
     color: black;
     text-decoration: none;
     padding: 0 12px;
+}
+
+.about-me_image--container{
+    flex:1;
+    display: flex;
+    align-items: center;
 }
 
 
