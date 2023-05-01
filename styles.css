@@ -43,6 +43,18 @@ li{
     margin: 0 auto;
 }
 
+.section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.container{
+    padding: 50px 0;
+}
+
+.section__title{
+    margin-bottom: 20px;
+}
+
 /* NAVIGATION BAR */
 
 nav{
@@ -159,6 +171,14 @@ nav{
     display: flex;
     align-items: center;
 }
+
+.about-me__image{
+    width: 100%;
+}
+
+
+/* TECH STACK SECTION */
+
 
 
 
