@@ -228,3 +228,32 @@ nav{
 .project__img{
     width: 100%;
 }
+
+.project__wrapper{
+    display: flex;
+    box-shadow: 0 20px 80px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.project__wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 450ms ease;
+    z-index: 2;
+}
+
+.project:hover .project__wrapper::before{
+    opacity: 0.7;
+}
+
+.project__list{
+    padding-top: 40px;
+}
