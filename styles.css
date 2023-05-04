@@ -225,6 +225,10 @@ nav{
 
 /* PROJECT SECTION */
 
+.project{
+    margin-bottom: 135px;
+}
+
 .project__img{
     width: 100%;
 }
