@@ -298,3 +298,12 @@ nav{
 footer{
     background-color: black ;
 }
+
+.footer_logo--img{
+    width: 70px;
+    height: 70px;
+}
+
+.footer_row{
+    padding: 8% 0;
+}
