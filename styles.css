@@ -226,7 +226,7 @@ nav{
 /* PROJECT SECTION */
 
 .project{
-    margin-bottom: 800px;
+    margin-bottom: 135px;
 }
 
 .project__img{
@@ -238,7 +238,7 @@ nav{
     box-shadow: 0 20px 80px;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 }
 
 .project__wrapper::before{
@@ -293,3 +293,8 @@ nav{
     color: white;
 }
 
+/* Footer Section */
+
+footer{
+    background-color: black ;
+}
