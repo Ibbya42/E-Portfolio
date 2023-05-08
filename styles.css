@@ -226,7 +226,7 @@ nav{
 /* PROJECT SECTION */
 
 .project{
-    margin-bottom: 135px;
+    margin-bottom: 800px;
 }
 
 .project__img{
@@ -252,6 +252,7 @@ nav{
     opacity: 0;
     transition: opacity 450ms ease;
     z-index: 2;
+
 }
 
 .project:hover .project__wrapper::before{
