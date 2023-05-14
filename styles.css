@@ -334,10 +334,13 @@ nav{
 /* PROJECT SECTION */
 
 .project{
+    /* Add spacing from the bottom between each project */
     margin-bottom: 135px;
 }
 
 .project__img{
+    /* Setting the image width to 100% to its parent class (.project__wrapper)
+    so that the image shows on a full scale and is responsive */
     width: 100%;
 }
 
@@ -387,16 +390,20 @@ nav{
 }
 
 .project__description--title{
+    /* Making the title bigger in size */
     font-size: 40px;
 }
 
 .project__description--para{
+    /* Add 16px spacing top and bottom and 0 left and right */
     margin: 16px 0;
 }
 
 .project__description--title,
 .project__description--sub-title,
 .project__description--para{
+    /* Align all the title,subtitle and para classes to the left 
+    and set their text color to white */
     text-align: left;
     color: white;
 }
