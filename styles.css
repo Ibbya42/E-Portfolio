@@ -342,26 +342,45 @@ nav{
     /* Setting the image width to 100% to its parent class (.project__wrapper)
     so that the image shows on a full scale and is responsive */
     width: 100%;
+    /* Adds smooth transtion for the image scale increase when hovered on
+    from .project:hover .project__img */
+    transition: all 200ms ease;
 }
 
 .project__wrapper{
+    /* Makes image the whole size of the container  */
     display: flex;
-    /* Add box shadow around the container */
-    box-shadow: 0 20px 80px;
+    /* Add box shadow around the container 
+    0 offset horizontally
+    20 offset vertically
+    80 Blur*/
+    box-shadow: 0px 20px 80px;
+    /* Creates the smooth edges for the container */
     border-radius: 20px;
+    /* Add the overflow hidden to stop the image being larger than the wrapper */
     overflow: hidden;
+    /* Add position relative to keep the content within the container
+    from .project__wrapper::before */
     position: relative;
 }
 
+/* Using before pseudo class to show what happens before hovering on the 
+description  */
 .project__wrapper::before{
+    /* Target all content */
     content: "";
+    /* Set the position of the wrapper to absoluste to keep the setup  */
     position: absolute;
     top: 0;
     left: 0;
+    /* Making height and width 100% of its parent to add responsiveness */
     height: 100%;
     width: 100%;
     background-color: black;
+    /* Set the opacity to 0 so that on default so the
+    container will not be blacked out */
     opacity: 0;
+    /* Used to transtion the opacity of the image */
     transition: opacity 450ms ease;
     z-index: 2;
 
@@ -375,7 +394,14 @@ nav{
     opacity: 1;
 }
 
+/* Increase the image size on the background when it is hovered on */
+.project:hover .project__img{
+    transform: scale(1.07);
+    filter: blur(5px);
+}
+
 .project__list{
+    /* Add padding between the title and the projects from the top */
     padding-top: 40px;
 }
 
