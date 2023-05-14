@@ -307,20 +307,27 @@ nav{
 }
 
 .language__list{
+    /* Align the items side by side */
     display: flex;
+    /* Setting the width to 100% to make the language list responsive */
     width: 100%;
+    /* Items wrap to the next line when there is no space remaining in the row */
     flex-wrap: wrap;
 }
 
 .language__name{
+    /* Allows the text to be seen and within the conatiner */
     position: absolute;
+    /* Get the text to appear below the language image */
     bottom: 0;
+    /* On default the language name will not be showing as transform Scale is set to 0 */
     transform: scale(0);
     transition: all 300ms;
     font-size: 20px;
 }
 
 .language:hover .language__name{
+    /* Set Transform scale to 1 so when we hover over the image it will scale the size by 1 */
     transform: scale(1);
 }
 
