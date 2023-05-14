@@ -391,6 +391,8 @@ description  */
 }
 
 .project:hover .project__description{
+    /* When the container is hovered over, it will display the text as
+    the opacity is set to 1 - Linked to opacity from .project__description */
     opacity: 1;
 }
 
@@ -417,6 +419,7 @@ description  */
     /* Set Max-width to 500px */
     max-width: 500px ;
     z-index: 3;
+    /* Opacity on default is set to zero so the text will not show */
     opacity: 0;
 
 }
