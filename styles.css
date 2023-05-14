@@ -276,13 +276,17 @@ nav{
     transition: all 300ms;
 }
 
+/* Targeting the image class when it is on hover */
 .language:hover .language__img{
     filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9) ;
 }
 
+/* Targeting the language container that covers the image and image wrapper */
 .language{
+/* Set the width to 25% to put 4 languages in a row - Links to the 
+   .language__img class for the max-width which is 100px  */
     width: 25%;
     display: flex;
     justify-content: center;
