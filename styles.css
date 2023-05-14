@@ -219,12 +219,14 @@ nav{
 
 .about-me_info--title{
     margin-bottom: 16px;
+     /* Calling the Keyframe to work on the about me content through animation */
     animation: fade-up 650ms 800ms backwards;
 }
 
 .about-me_info--para{
     font-size: 20px;
     margin-bottom: 28px;
+     /* Calling the Keyframe to work on the about me content through animation */
     animation: fade-up 650ms 600ms backwards;
 }
 
@@ -290,13 +292,17 @@ nav{
     width: 25%;
     display: flex;
     justify-content: center;
+    /* Allows the content to be inside the element */
     position: relative;
 }
 
 .language__img--wrapper{
+    /* Aligning the items to the center both horizontally and vertically  */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Add padding between the languages 25px top/bottom
+    and 16px left/right */
     padding: 25px 16px;
 }
 
