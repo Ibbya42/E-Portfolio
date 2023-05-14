@@ -346,6 +346,7 @@ nav{
 
 .project__wrapper{
     display: flex;
+    /* Add box shadow around the container */
     box-shadow: 0 20px 80px;
     border-radius: 20px;
     overflow: hidden;
@@ -379,10 +380,15 @@ nav{
 }
 
 .project__description{
+    /* Add position absolute to bring the text inside the container */
     position: absolute;
+    /* Centering the text to the center of the container */
     top: 50%;
+    /* Push the text to the right of the container */
     left: 90px;
+    /*Centering the text to the center of the container from the bottom up  */
     transform: translateY(-50%);
+    /* Set Max-width to 500px */
     max-width: 500px ;
     z-index: 3;
     opacity: 0;
