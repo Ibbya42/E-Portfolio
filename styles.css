@@ -470,7 +470,7 @@ footer{
 }
 
 .footer_row{
-    /*  */
+    /* Align the footer links centerally both hortizontally and vertically */
     padding: 8% 0;
     display: flex;
     flex-direction: column;
